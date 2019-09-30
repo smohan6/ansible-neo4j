@@ -4,13 +4,13 @@
 # Specify which Neo4j version you want to install
 # ==================================================
 neo4j_package: neo4j-enterprise
-neo4j_package_version: 2.0.0
+neo4j_package_version: 3.2.2
 
 # ==================================================
 # Server configuration
 # ==================================================
 
-neo4j_server_database_location: data/graph.db
+neo4j_server_database_location: data/databases/graph.db
 
 # Let the webserver only listen on the specified IP. Default is localhost (only
 # accept local connections). Uncomment to allow any connection. Please see the
